@@ -1,137 +1,768 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Kristina Halbig - Data Scientist</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!-- <!DOCTYPE html> -->
+<html lang="en">
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://1drv.ms/b/c/667a991ba112afad/EXNgdJ-T-ERHp6DkoyXSPuIB5pSg0Vs8jcHgNP73uemglQ?e=Ybthuc" class="icon solid fa-file"><span>Resume</span></a>
-						<a href="https://vis.social/@FragariaChemist" class="icon brands fa-mastodon"><span>Mastodon</span></a>
-						<a href="https://www.linkedin.com/in/khalbig/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
-					</nav>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
 
-				<!-- Main -->
-					<div id="main">
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Kristina Halbig | Data Scientist</title>
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Kristina Halbig</h1>
-									<p>Data Scientist</p>
-									<p style="font-size: smaller;">As a data scientist with eight years of analytical chemistry experience, I am passionate about uncovering insights from data. Leveraging my expertise in analytical techniques, I thrive on transforming big-picture ideas into actionable steps. My journey is fueled by a love for coding and continuous learning. I am eager to contribute to projects that drive social good and join a team dedicated to impactful work. Connecting with like-minded professionals excites me as I seek new opportunities for growth and innovation.<br>
-        						</header>
-								</header>
-								<a href="#projects" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
-								</a>
-							</article>
 
-						<!-- Projects -->
-							<article id="projects" class="panel">
-								<header>
-									<h2>Recent Projects</h2>
-								</header>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://github.com/FragariaChemist/ravelry_project" class="image fit"><img src="images/ravelry_git_image.jpg" alt=""></a>
-											<p class="image-description">
-											 	<span class="large-text">Ravelry Knitting Pattern Recommender</span>
-											 	<br>
-											 	<span class="small-text">API Scripting | SpaCY NLP | Cosine Distances | Streamlit</span>
-											</p>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://github.com/FragariaChemist/reddit_nlp_classifier" class="image fit"><img src="images/reddit_git_image.jpg" alt=""></a>
-											<p class="image-description">
-												<span class="large-text">Subreddit 'Pen or Fountain Pen' Classifier</span>
-												<br>
-												<span class="small-text">Logistic Regression | Naive Bayes | CountVectorizer</span>
-											</p>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://github.com/FragariaChemist/airline_safety" class="image fit"><img src="images/airline_git_image.jpg" alt=""></a>
-											<p class="image-description">
-												<span class="large-text">Budget Airline Classifier</span>
-												<br>
-												<span class="small-text">Data Wrangling | NLP | Logistic Regression | Grid Search</span>
-											</p>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://github.com/FragariaChemist/housing_regression" class="image fit"><img src="images/homes_git_image.jpg" alt=""></a>
-											<p class="image-description">
-												<span class="large-text">Housing Prices Predictions</span>
-												<br>
-												<span class="small-text">Data Exploration | Feature Engineering |  Linear Regression</span>
-											</p>
-										</div>
-									</section>
-								</article>
-										
+  <!-- Open Graph-->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Kristina Halbig | Data Scientist" />
+  <meta property="og:description" content="Data Scientist with a background in analytical chemistry and a passion for problem-solving." />
+  <meta property="og:url" content="https://fragariachemist.github.io/" />
+  <meta property="og:image" content="https://fragariachemist.github.io/assets/img/profile-picture.jpg" />
+  
+  <link rel="me" href="https://vis.social/@FragariaChemist" />
+  
+  <meta name="author" content="Kristina Halbig" />
+  <meta name="description" content="Data Scientist with a background in analytical chemistry and a passion for problem-solving." />
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="https://formspree.io/f/mzbnnbge" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
 
-					</div>
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/me.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
 
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; 2024 - Kristina Halbig</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
 
-			</div>
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
 
-	</body>
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Kristina's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Kristina's resume in a new tab" href="https://fragariachemist.github.io/assets/resume/Kristina_Halbig_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Kristina Halbig
+      </a><span class="black-text">Data Scientist</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Kristina's Resume in a new tab"
+          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Kristina Halbig.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Endlessly curious and adaptable data scientist who picks up new tools and techniques with ease, driven to uncover insights from complex data that drive positive change and meaningful impact.</h5>
+            </div>
+            <div class="social">
+              <a href="http://linkedin.com/in/khalbig" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/fragariachemist/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            Data Scientist with a background in analytical chemistry and a passion for problem-solving.
+
+          </h2>
+        </blockquote> -->        
+        <p>
+          Hello! I'm a data scientist with a unique blend of eight years of analytical chemistry experience and a passion for uncovering the stories hidden within data. As a lifelong learner, I'm always eager to expand my skillset and implement new techniques to tackle challenging problems.<br>
+          My toolbox is well-stocked with Python, Pandas, Scikit-Learn, SQL, JupyterLab, and a solid understanding of supervised/unsupervised learning and natural language processing (NLP). I'm a tenacious problem-solver, driven to deliver high-quality work that makes a positive impact on others. <br>
+          So, if you're looking for a data scientist who combines technical expertise with a touch of chemistry and a whole lot of determination, you've come to the right place. Let's dive into the data together and unravel its secrets!
+        </p>
+        <p>
+          <ul>
+            <li><b>Coding:</b> Python, Pandas, Numpy, Scikit-Learn, Data Cleaning, Data Wrangling, API, spaCy, SQL, Keras, Tensorflow </li>
+            <li><b>Visualization:</b> Matplotlib, Seaborn, Tableau</li>
+            <li><b>Libraries:</b> NumPy, Pandas, OpenCV</li>
+            <li><b>Software:</b> Github, JupyterLab, Slack, Streamlit</li>
+            <li><b>Machine Learning:</b> Classification, Clustering, Decision Trees, Linear/Logistic Regression, Neural Networks, NLP, Predictive Modeling, Supervised/Unsupervised Learning</li>
+          </ul>
+          
+        </p>
+          
+        <!-- <p>
+          
+          Data Scientist           
+        </p> -->
+        <p>
+          I'm seeking opportunities to apply my skills at a dynamic organization that values learning, embraces challenges, and supports career development and growth.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+                <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://generalassemb.ly/.com/" target="_blank"><img alt="GA logo"
+                    src="/assets/img/ga-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.generalassemb.ly.com/" target="_blank"
+                      class="teal-text hoverline">General Assembly</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Science Immersive Fellow</div>
+            <ul>
+              <li>
+               Successfully completed a rigorous 12-week data science bootcamp program, totaling over 400 hours of instruction and hands-on learning.
+              </li>
+              <li>
+                Developed varios open-ended data science projects to explore different issues and improve data skills.
+              </li>
+              <li>Built, evaluated, and optimized machine learning statistical models and classifications.
+              </li>
+              <li>Developed strong problem-solving skills through hands-on practice with real-world datasets and case studies.</li>
+              <li>
+                <b>Tools:</b> Python, Pandas, JupyterLab, Github, Scikit-learn, spaCy, Google Colab
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>March 2024 - June 2024 | Remote</span>
+          </div>
+        </div>
+
+        <!-- Experince Two -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.encorelabs.com/" target="_blank"><img alt="Encore logo"
+                    src="/assets/img/encore-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.encorelabs.com/" target="_blank"
+                      class="teal-text hoverline">Encore Labs</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Senior Analytical Chemist</div>
+            <ul>
+              <li>
+                Led data wrangling of over 10,000 data points per day, supporting 270 clients and generating $600k in monthly revenue.
+              </li>
+              <li>
+                Developed and implemented Tableau dashboards to visualize 500 geographic data points, resulting in improved understanding of business performance and strategic decision-making.
+              </li>
+              <li>Implemented a QBench LIMS system to automate the upload and approval of data, ensuring proper handling of more than 5k data points per day and reducing errors to less than 5% (from 15%).</li>
+              <li>Trained analysts and lab supervisors on the operation of analytical chemistry equipment and data analysis, ensuring all trainees received scores of at least 4/5 on all KPIs and increasing productivity by 14% within the department.</li>
+              <li>
+                <b>Tools:</b> Tableau, Microsoft Excel, QBench, Sciex OS (Data Analysis Software)
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>July 2018 - Nov 2024 | Pasadena, CA</span>
+          </div>
+        </div>
+
+        <!-- Experience Three -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.jmsmucker.com" target="_blank"><img alt="The J.M. Smucker Co"
+                    src="/assets/img/smucker-logo.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://jmsmucker.com" target="_blank"
+                      class="teal-text hoverline">The J.M. Smucker Co</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Analytical Chemist</div>
+            <ul>
+              <li>
+                 Directed analysis and data wrangling of diverse ingredient datasets across 100 product lines, processing data packets for about 
+20 samples daily. Led training, oversaw analytical instrument maintenance, and documented lab procedures.
+
+              </li>
+              <li>
+                 Maintained compliance with industry standard regulations, overseeing the audit of 75 standard operating procedures to ensure 
+compliance and assisting with the acquisition of an ISO 17025 certification.
+              </li>
+              <li>
+                 Performed cost analysis, resulting in $400 daily savings through efficient purchasing.
+              </li>
+              <li>
+                <b>Tools:</b> Microsoft Excel, Agilent Masshunter (Data Analysis Software)
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2015 - July 2018 | Burbank, CA</span>
+          </div>
+        </div>
+
+       
+    </section>
+
+    <!-- Fourth Section: Projects -->
+
+    <!-- Ravelry Knitting Project -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="knitting recommendation system" src="/assets/img/ravelry_git_image.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Knitting Pattern Recommender<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A knitting recommender based on Ravelry API.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Scikit-learn, spaCy, Streamlit, API Scripting</li>
+                  <li>Developed a knitting pattern recommender system using Ravelry API data, implemented in a Streamlit website that suggests similar patterns.</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://youtu.be/VfF5s9c8_5I" target="_blank" data-position="top"
+                    data-tooltip="View Demonstration"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/FragariaChemist/ravelry_project"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reddit Classifier Project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/reddit_git_image.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Subreddit Post Classifier<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A model that categorizes pen-related posts into pens or fountainpens subreddits.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> spaCy, CountVector, API Scripting, Logistic Regression, Naive Bayes </li>
+                  <li>Scraped Reddit for posts from pens and fountain pens subreddits, including post titles and content.</li>
+                  <li>Trained a Naive Bayes classifier on post text to which subreddit each post originated from.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/FragariaChemist/ravelry_project"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Budget Airline Project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/airline_git_image.jpg"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Budget Airline Model<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Logistic regression model predicting budget airlines from NTSB data.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
+                  <li>Cleaned and preprocessed NTSB aviation accident dataset with missing and inconsistent data.</li>
+                  <li>Used grid search to optimize model parameters and predict budget airlines.</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/FragariaChemist/airline_safety"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Housing Prediction Model -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/homes_git_image.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Home Price Predictions<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Predictive model for home prices based on various home features.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Engineered features from a large dataset of home sales, including bathrooms, bedrooms, garage, and square feet.
+                    embeddings.</li>
+                  <li>Tested and optimized model performance to avoid overfitting and improve price predictions.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/FragariaChemist/housing_regression" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Coding -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Coding & Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />Numpy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/spacy_logo.png" class="responsive-img" />spaCy
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Visualizations</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/seaborn_logo.png" class="responsive-img" />Seaborn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/tableau_logo.png" class="responsive-img" />Tableau
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Software</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/jupyter_logo.png" class="responsive-img" />Jupyterlab
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/slack_logo.png" class="responsive-img" />Slack
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/streamlit_logo.png" class="responsive-img" />Streamlit
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://generalassemb.ly/" target="_blank" class="teal-text hoverline">General Assembly</a></span>
+                </p>
+                <p class="brown-text">Remote | March 2024 - June 2024</p>
+                <p>
+                  <b>Program: </b>Data Science Immersive Certification     
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Coursework:</b>
+                  <ul>
+                    <li>Exploratory Data Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Natural Language Processing</li>
+                    <li>Deep Learning</li>
+                    <li>Feature Engineering</li>
+                    <li>Final Capstone Project & Presentation</li>                 
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/" target="_blank" class="teal-text hoverline">California State University, Northridge
+                      University</a></span>
+                </p>
+                <p class="brown-text">Northridge, CA</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Science in Chemistry
+                  <br>
+                  <b>GPA: </b>3.51
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Data Driven Experimentation</li>
+                    <li>Analytical Techniques</li>
+                    <li>Advanced Chemistry Studies</li>
+                    <li>Hands-on Laboratory Techniques</li>
+                    <li>Biochemistry Fundamentals</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Email Kristina" href="mailto:kristinadhalbig@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Kristina" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Kristina" href="mailto:kristinadhalbig@gmail.com"
+              class="hoverline">kristinadhalbig@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Kristina on GitHub" href="http://github.com/fragariachemist" target="_blank"
+            data-position="top" data-tooltip="View Kristina on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Kristina on Github" href="http://github.com/fragariachemist" class="hoverline"
+              target="_blank">github.com/fragariachemist</a></a>
+        </p>
+        <p>
+          <a aria-label="View Kristina on LinkedIn" href="http://linkedin.com/in/khalbig" target="_blank"
+            data-position="top" data-tooltip="View Kristina on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Kristina on LinkedIn" href="http://linkedin.com/in/khalbig"
+              class="hoverline" target="_blank">linkedin.com/in/khalbig</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Data Scientist", "Versatilist", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
 </html>
