@@ -158,8 +158,7 @@ a:hover { text-decoration-thickness: 2px; }
 @media (max-width: 720px) {
   .job { grid-template-columns: 1fr; }
   .nav { flex-direction: column; align-items: flex-start; gap: .4rem; }
-  .nav ul { flex-wrap: nowrap; overflow-x: auto; width: 100%; padding-bottom: .25rem; gap: 1.1rem; }
-  .nav ul li { flex: none; }
+  .nav ul { flex-wrap: wrap; gap: .3rem 1.1rem; }
   .peak-what { display: none; }
   .yr-end { display: none; }
   .peaks li { max-width: 5rem; }
