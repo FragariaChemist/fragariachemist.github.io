@@ -187,6 +187,8 @@ a:hover { text-decoration-thickness: 2px; }
 .hub-tiles dd { margin: .3rem 0 0; font-size: 2rem; font-weight: 650; font-stretch: 80%; line-height: 1; }
 .hub-tiles div:first-child { border-top-color: var(--trace); }
 .hub-tile-hot { border-top-color: #c2410c !important; }
+.hub-tile-hot dd { color: #c2410c; }
+.hub-pri { font-size: .8rem; font-weight: 600; color: #c2410c; }
 .hub-tile-warn { border-top-color: #a16207 !important; }
 .hub-tile-bug { border-top-color: var(--focus) !important; }
 .hub-tile-bug dd { color: var(--focus); }
