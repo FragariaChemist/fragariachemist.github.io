@@ -64,6 +64,9 @@ a:hover { text-decoration-thickness: 2px; }
 .role { font-size: var(--step-2); font-weight: 450; color: var(--trace); margin: .5rem 0 1.5rem; }
 .lede { max-width: var(--measure); margin: 0 0 1.75rem; color: var(--ink-soft); font-size: var(--step-1); line-height: 1.5; }
 
+.lede:has(+ .now) { margin-bottom: .5rem; }
+.now { font-size: var(--step-0); }
+
 .hero-links { display: flex; flex-wrap: wrap; gap: .75rem; margin: 0; }
 .btn {
   display: inline-block; padding: .6rem 1.1rem; border-radius: 4px;
@@ -100,6 +103,8 @@ a:hover { text-decoration-thickness: 2px; }
 .peak-year { display: block; font-weight: 650; font-size: var(--step-0); }
 .peak-what { display: block; font-size: var(--step--1); color: var(--ink-soft); }
 .peak-now .peak-year { color: var(--trace); }
+/* The short 2024 fellowship peak sits close to the 2025 peak: nudge its label left. */
+.peaks li:nth-child(3) { margin-left: -2.75rem; }
 
 .trace figcaption { font-size: var(--step--1); color: var(--ink-soft); padding-top: .6rem; }
 
@@ -148,6 +153,15 @@ a:hover { text-decoration-thickness: 2px; }
 .projects h3 { font-size: var(--step-0); }
 .projects p { margin: .3rem 0 0; color: var(--ink-soft); font-size: var(--step--1); max-width: 50ch; }
 
+/* Current project */
+.case { border-left: 3px solid var(--trace); padding-left: 1rem; max-width: var(--measure); }
+.case h3 { font-size: var(--step-1); }
+.case p, .case li { color: var(--ink-soft); }
+.case ul { padding-left: 1.1rem; }
+.case li + li { margin-top: .35rem; }
+.status { display: inline-block; vertical-align: middle; margin-left: .4rem; padding: .1rem .5rem; border: 1px solid var(--trace); border-radius: 999px; font-size: var(--step--1); font-weight: 550; color: var(--trace); }
+.case-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: var(--step--1); }
+
 /* Contact */
 .contact p { max-width: var(--measure); }
 .contact .hero-links { margin-top: 1.25rem; }
@@ -157,6 +171,14 @@ a:hover { text-decoration-thickness: 2px; }
 /* Small screens */
 @media (max-width: 720px) {
   .job { grid-template-columns: 1fr; }
+  .site-head { position: static; }
+  .nav { padding-block: .5rem; gap: .2rem; }
+  .hero { padding-top: 1.5rem; }
+  .role { font-size: var(--step-1); line-height: 1.3; margin: .4rem 0 .9rem; }
+  .lede { font-size: var(--step-0); margin-bottom: 1rem; }
+  .btn { padding: .5rem .85rem; }
+  .hero-links { gap: .5rem; }
+  .peaks li:nth-child(3) { margin-left: -1.1rem; }
   .nav { flex-direction: column; align-items: flex-start; gap: .4rem; }
   .nav ul { flex-wrap: wrap; gap: .3rem 1.1rem; }
   .peak-what { display: none; }
@@ -178,7 +200,7 @@ a:hover { text-decoration-thickness: 2px; }
 .hub { margin: 1rem 0 2.5rem; }
 .hub figcaption { margin-bottom: 1rem; max-width: var(--measure); }
 .hub-title { display: block; font-weight: 600; }
-.hub-note { display: block; font-size: var(--step--1); color: var(--ink-soft); margin-top: .2rem; }
+.hub-note { display: inline-block; font-size: var(--step--1); font-weight: 600; color: var(--ink); background: var(--trace-faint); border-radius: 4px; padding: .15rem .5rem; margin-top: .35rem; }
 .hub-board { background: var(--paper-raised); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem; display: grid; gap: 1rem; }
 .hub-tiles { margin: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .6rem; }
 .hub-tiles div { background: var(--paper); border-radius: 6px; padding: .6rem .7rem .7rem; border-top: 3px solid var(--rule); display: flex; flex-direction: column; justify-content: space-between; min-height: 5.5rem; }
